@@ -1,6 +1,9 @@
 var Dropbox = function(CLIENT_ID, redirect_uri) {
 	this.token;
 	
+	//CLIENT_ID = 9slwxgfxcbmjxh9
+	//redirect_uri = https://localhost
+	
 	this.href = "https://www.dropbox.com/1/oauth2/authorize?response_type=token&client_id=" + CLIENT_ID + "&redirect_uri=" + redirect_uri;
 
 	/**
